@@ -1,0 +1,230 @@
+:root {
+  --heading-black-color: #212121;
+  --text-grey-color: #757575;
+  --blue-color: #2196f3;
+  --logo-black-color: #000000;
+  --white-color: #ffffff;
+  --white-color-opacity60: rgba(255, 255, 255, 0.6);
+  --background-black-color: #2f303a;
+  --background-grey-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text-grey-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ЛОГО */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  color: var(--blue-color);
+}
+
+.logo-header {
+  color: var(--logo-black-color);
+}
+
+.logo-footer {
+  color: var(--white-color);
+}
+
+/* ХЕДЕР */
+
+.nav-list,
+.header .contact-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .link {
+  color: var(--heading-black-color);
+}
+
+.contact-list .link {
+  color: inherit;
+}
+
+.nav-list .current-page {
+  color: var(--blue-color);
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--blue-color);
+}
+
+/* ФУТЕР */
+
+.footer {
+  background-color: var(--background-black-color);
+}
+
+.adsress,
+.footer .contact-list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-style: normal;
+  color: var(--white-color);
+}
+
+.footer .contact-list {
+  color: var(--white-color-opacity60);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--blue-color);
+}
+
+/* СТРАНИЦА СТУДИЯ */
+
+/* секция "герой" */
+
+.hero {
+  background-color: var(--background-black-color);
+}
+
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.hero .button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--blue-color);
+
+  cursor: pointer;
+}
+
+/*  ЗАГОЛОВКИ СЕКЦИЙ */
+/* секция "наши преимущества" */
+/* секция "чем мы занимаемся" */
+/* секция "наша команда" */
+
+.advantages > .title,
+.our-works .title,
+.our-team > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--heading-black-color);
+}
+
+/* секция "наши преимущества" */
+
+.advantages-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--heading-black-color);
+}
+
+.advantages-list .description {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* секция "наша команда" */
+
+.our-team {
+  background-color: var(--background-grey-color);
+}
+
+.our-team-list .title,
+.our-team-list .description {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-list .title {
+  font-weight: 500;
+  color: var(--heading-black-color);
+}
+
+.our-team-item {
+  background-color: var(--white-color);
+}
+
+/* СТРАНИЦА ПОРТФОЛИО */
+
+.portfolio-buttons .button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--heading-black-color);
+  background-color: var(--background-grey-color);
+
+  cursor: pointer;
+}
+
+.portfolio-buttons .first-button,
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.portfolio-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--heading-black-color);
+}
+
+.portfolio-list .description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
