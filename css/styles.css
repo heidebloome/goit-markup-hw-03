@@ -24,6 +24,15 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ЛОГО */
 
 .logo {
@@ -62,10 +71,7 @@ body {
   color: inherit;
 }
 
-.nav-list .current-page {
-  color: var(--blue-color);
-}
-
+.nav-list .current-page,
 .header .link:hover,
 .header .link:focus {
   color: var(--blue-color);
@@ -106,11 +112,10 @@ body {
   background-color: var(--background-black-color);
 }
 
-.hero .title {
+.studio-main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -137,9 +142,9 @@ body {
 /* секция "чем мы занимаемся" */
 /* секция "наша команда" */
 
-.advantages > .title,
+.advantages .title,
 .our-works .title,
-.our-team > .title {
+.our-team .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -151,7 +156,7 @@ body {
 
 /* секция "наши преимущества" */
 
-.advantages-list .title {
+.advantages-list .subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -173,7 +178,7 @@ body {
   background-color: var(--background-grey-color);
 }
 
-.our-team-list .title,
+.our-team-list .subtitle,
 .our-team-list .description {
   font-size: 16px;
   line-height: 1.187;
@@ -181,7 +186,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team-list .title {
+.our-team-list .subtitle {
   font-weight: 500;
   color: var(--heading-black-color);
 }
