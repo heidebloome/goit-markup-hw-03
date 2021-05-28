@@ -26,7 +26,6 @@ body {
 
 .container {
   width: 1200px;
-  text-align: center;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -35,9 +34,6 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 h1,
@@ -49,6 +45,10 @@ h6,
 p,
 ul {
   margin: 0 auto;
+}
+
+ul {
+  padding-left: 0;
 }
 
 /* ЛОГО */
@@ -131,6 +131,8 @@ ul {
 
   padding-top: 200px;
   padding-bottom: 200px;
+
+  text-align: center;
 }
 
 .studio-main-title {
