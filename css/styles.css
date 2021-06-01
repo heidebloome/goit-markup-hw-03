@@ -7,6 +7,7 @@
   --white-color-opacity60: rgba(255, 255, 255, 0.6);
   --background-black-color: #2f303a;
   --background-grey-color: #f5f4fa;
+  --border-header-color: #ececec;
 }
 
 body {
@@ -81,6 +82,10 @@ img {
 }
 
 /* ХЕДЕР */
+
+.header {
+  border-bottom: 1px solid var(--border-header-color);
+}
 
 .header .container,
 .nav-list,
@@ -240,8 +245,17 @@ img {
   display: none;
 }
 
+.advantages-list {
+  display: flex;
+}
+
 .advantages-list li {
   text-align: left;
+  width: 270px;
+}
+
+.advantages-list li:not(:last-child) {
+  margin-right: 30px;
 }
 
 .advantages-list .subtitle {
@@ -268,6 +282,11 @@ img {
   padding-top: 0;
 }
 
+.our-works-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* секция "наша команда" */
 
 .our-team {
@@ -280,6 +299,11 @@ img {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .our-team-list .subtitle {
