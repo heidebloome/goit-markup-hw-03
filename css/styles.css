@@ -44,7 +44,8 @@ h5,
 h6,
 p,
 ul {
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
@@ -75,7 +76,37 @@ img {
   color: var(--white-color);
 }
 
+.logo {
+  margin-right: 93px;
+}
+
 /* ХЕДЕР */
+
+.header .container,
+.nav-list,
+.header .contact-list {
+  display: flex;
+}
+
+.header .container {
+  align-items: center;
+}
+
+.nav-list .link,
+.header .contact-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header .contact-list {
+  margin-left: auto;
+}
+
+.nav-list-item:not(:last-child),
+.header .contact-list-item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .nav-list,
 .header .contact-list {
@@ -134,7 +165,7 @@ img {
   padding-bottom: 60px;
 }
 
-.contact-list-item {
+.footer .contact-list-item {
   margin-bottom: 9px;
 }
 
