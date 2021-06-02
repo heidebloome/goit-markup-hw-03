@@ -141,7 +141,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 31px;
-  /* нижний паддинг 31 пиксель, потому что 1 пиксель занял border-bottom у хедера */
+  /* нижний padding 31 пиксель, потому что 1 пиксель занял border-bottom у хедера */
 }
 
 .nav-list .link {
